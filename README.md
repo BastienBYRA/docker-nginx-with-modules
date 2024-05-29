@@ -6,7 +6,7 @@ This project uses Dockerfiles provided by NGINX maintainers to easily generate N
 
 ## Usage
 
-To use the script, you need to provide three parameters when calling the bash script:
+To use the script, you need to provide three parameters, either as environment variables or in a .env file:
 
 1. `MODULES_TO_ADD_LIST`: A list of modules you want to include, separated by spaces. These modules should be available on pkg-oss.
 2. `BASE_NGINX_IMAGE`: The NGINX base image to which you want to add the modules. Defaults to the mainline image.
